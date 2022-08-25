@@ -3,11 +3,11 @@ export default function Home() {
         <>
             <div className='container'>
                 <div className='bit-1'>
-                    <img src='https://imgur.com/W5uyGCt.png' />
+                    <img className="bit" src='https://imgur.com/W5uyGCt.png' alt="img."/>
                 </div>
                 <div className="about">
                     <h1>About Me!</h1>
-                    <p className="intro">My name is Jacob Shapiro. I am a software engineer who's 
+                    <p className="intro">I am Jacob Shapiro. I am a full stack software engineer who's 
                     <br /> primary focus is backend. I love to make a change in the world 
                     <br /> and develop applications that help people and make their lives easier.
                     <br />
@@ -15,10 +15,10 @@ export default function Home() {
                     <br /> aside from that I love food and coffee.</p>
                 </div>
                 <div className='bit-2'>
-                    <img src='https://imgur.com/AgBiDdH.png' />
+                    <img className="bit" src='https://imgur.com/AgBiDdH.png' alt="img."/>
                 </div>
             </div>
-            <div className="lang-div">
+            <div className="lang-container">
                 <h1>Languages</h1>
                 <div>
                     <li>HTML5</li>
@@ -27,8 +27,15 @@ export default function Home() {
                     <li>Python</li>
                     <li>SQL</li>
                 </div>
+                <div className="lang-img">
+                    <img id="lang-img" src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/HTML5_logo_and_wordmark.svg/1200px-HTML5_logo_and_wordmark.svg.png" alt="img." />
+                    <img id="lang-img" src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/CSS3_logo_and_wordmark.svg/1200px-CSS3_logo_and_wordmark.svg.png" alt="img." />
+                    <img id="lang-img" src="https://quintagroup.com/cms/js/js-image/javascript-logo.png" alt="img." />
+                    <img id="lang-img" src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/0a/Python.svg/1200px-Python.svg.png" alt="img." />
+                    <img id="lang-img" src="https://i0.wp.com/learn.onemonth.com/wp-content/uploads/2019/07/image2-1.png?fit=600%2C315ssl=1" alt="img." />
+                </div>
             </div>
-            <div className="frame-div">
+            <div className="frame-container">
                 <h1>Libraries and Frameworks</h1>
                 <div>
                     <li>Django</li>
@@ -36,6 +43,8 @@ export default function Home() {
                     <li>jQuery</li>
                     <li>Node.js</li>
                     <li>React.js</li>
+                </div>
+                <div className="frame-img">
                 </div>
             </div>
         </>
