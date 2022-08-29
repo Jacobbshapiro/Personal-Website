@@ -8,7 +8,7 @@ export default function NavBar() {
                     &nbsp;  &nbsp;
                     <Link to="/Home">Home</Link>
                     &nbsp;  &nbsp;
-                    <Link to="/Portfolio">Portfolio</Link>
+                    <Link to="/Portfolio">Work</Link>
                     &nbsp;  &nbsp;
                     <Link to="/Contact">Contact</Link>
                     &nbsp;  &nbsp;
