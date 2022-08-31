@@ -3,15 +3,15 @@
 }
 
 a {
-  color: black;
+  color: #05386B;
 }
 
 .navbar {
-  background-color: gray;
+  background-color: #5CDB95;
   opacity: 0.7;
   height: 50px;
   font-family:  'Courier New', monospace;
-  color: black;
+  color:#05386B;
   font-weight: bold;
   font-size: 25px;
   padding-top: 15px;
@@ -34,7 +34,7 @@ main {
 .container {
   height: 250px;
   padding-top: 50px;
-  background-color: slateblue;
+  background-color: #5CDB95;
   padding-bottom: 150px;
   font-family: 'Courier New', Courier, monospace;
   display: flex;
@@ -49,34 +49,44 @@ main {
   align-items: center;
   height: 250px;
   padding-top: 50px;
-  background-color: gold;
+  background-color: #5CDB95;
   list-style: none;
   font-family:  'Courier New', monospace;
   font-size: 20px;
   display: flex;
   justify-content: space-around;
+  color: #05386B;
 }
 
 .frame-container {
   align-items: center;
   height: 250px;
   padding-top: 50px;
-  background-color: tomato;
+  background-color: #5CDB95;
   list-style: none;
   font-family:  'Courier New', monospace;
   font-size: 20px;
   display: flex;
   justify-content: space-around;
+  color: #05386B;
 }
 
 .footer {
-  background-color: yellow;
+  background-color: #5CDB95;
   position: fixed;
   left:0;
   right:0;
   bottom: 0;
   opacity: .7;
   position: relative;
+  color: #05386B;
+  display: flex;
+  justify-content: center;
+}
+
+#copy {
+  width: 15px;
+  height: 15px;
 }
 
 .bit {
@@ -85,6 +95,7 @@ main {
 
 .about {
   padding-top: 25px;
+  color: #05386B;
 }
 
 #lang-img {
@@ -95,11 +106,17 @@ main {
 .lang-img {
   display: flex;
   flex-wrap: wrap;
+  border: solid;
+  border-radius: 50%;
+  background-color: #05386B;
 }
 
 .frame-img {
   display: flex;
   flex-wrap: wrap;
+  border: solid;
+  border-radius: 50%;
+  background-color: #05386B;
 }
 
 #frame-img {
@@ -112,9 +129,10 @@ main {
   background-size: cover;
   height: 463px;
   padding-top: 50px;
-  background-color: tomato;
+  background-color: #5CDB95;
   padding-bottom: 150px;
   font-family: 'Courier New', Courier, monospace;
+  color: #05386B;
 }
 
 #contact-logo {
@@ -134,9 +152,10 @@ main {
   background-size: cover;
   height: 463px;
   padding-top: 50px;
-  background-color: slateblue;
+  background-color: #5CDB95;
   padding-bottom: 150px;
   font-family: 'Courier New', Courier, monospace;
+  color: #05386B;
 }
 
 .work-container {
@@ -150,6 +169,7 @@ main {
   background-image: url(https://imgur.com/sd0Xq6c.png);
   background-size: 400px;
   border: solid;
+  border-radius: 50%;
 }
 
 .yakesale {
@@ -157,6 +177,7 @@ main {
   background-image: url(https://imgur.com/eJ0UvFX.png);
   background-size: 400px;
   border: solid;
+  border-radius: 50%;
 }
 
 .browgames {
@@ -164,4 +185,5 @@ main {
   background-image: url(https://imgur.com/GHvgASi.png);
   background-size: 400px;
   border: solid;
+  border-radius: 50%;
 }

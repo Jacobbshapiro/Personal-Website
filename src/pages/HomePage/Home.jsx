@@ -45,6 +45,11 @@ export default function Home() {
                     <li>React.js</li>
                 </div>
                 <div className="frame-img">
+                    <img id="lang-img" src="https://cdn.worldvectorlogo.com/logos/django.svg" alt="img." />
+                    <img id="lang-img" src="https://cdn.icon-icons.com/icons2/2699/PNG/512/expressjs_logo_icon_169185.png" alt="img." />
+                    <img id="lang-img" src="https://cdn.icon-icons.com/icons2/2415/PNG/512/jquery_plain_wordmark_logo_icon_146445.png" alt="img." />
+                    <img id="lang-img" src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/7e/Node.js_logo_2015.svg/2560px-Node.js_logo_2015.svg.png" alt="img." />
+                    <img id="lang-img" src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/2300px-React-icon.svg.png" alt="img." />
                 </div>
             </div>
         </>
