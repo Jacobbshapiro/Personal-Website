@@ -3,7 +3,7 @@
 }
 
 a {
-  color: #05386B;
+  color: white;
 }
 
 .navbar {
@@ -17,6 +17,12 @@ a {
   padding-top: 15px;
 }
 
+a.nav-but:hover {
+  background-color: #05386B;
+  border-radius: 4px;
+  padding: 22px;
+}
+
 .nav {
   text-align: right;
 }
@@ -25,6 +31,7 @@ a {
   font-size: 20px;
   background-size: cover;
   margin-left: 25px;
+  font-weight: bold;
 }
 
 main {
@@ -56,6 +63,7 @@ main {
   display: flex;
   justify-content: space-around;
   color: #05386B;
+  font-weight: bold;
 }
 
 .frame-container {
@@ -69,6 +77,7 @@ main {
   display: flex;
   justify-content: space-around;
   color: #05386B;
+  font-weight: bold;
 }
 
 .footer {
@@ -106,17 +115,11 @@ main {
 .lang-img {
   display: flex;
   flex-wrap: wrap;
-  border: solid;
-  border-radius: 50%;
-  background-color: #05386B;
 }
 
 .frame-img {
   display: flex;
   flex-wrap: wrap;
-  border: solid;
-  border-radius: 50%;
-  background-color: #05386B;
 }
 
 #frame-img {
@@ -133,6 +136,7 @@ main {
   padding-bottom: 150px;
   font-family: 'Courier New', Courier, monospace;
   color: #05386B;
+  font-weight: bold;
 }
 
 #contact-logo {
@@ -169,7 +173,7 @@ main {
   background-image: url(https://imgur.com/sd0Xq6c.png);
   background-size: 400px;
   border: solid;
-  border-radius: 50%;
+  border-color: #05386B;
 }
 
 .yakesale {
@@ -177,7 +181,7 @@ main {
   background-image: url(https://imgur.com/eJ0UvFX.png);
   background-size: 400px;
   border: solid;
-  border-radius: 50%;
+  border-color: #05386B;
 }
 
 .browgames {
@@ -185,5 +189,34 @@ main {
   background-image: url(https://imgur.com/GHvgASi.png);
   background-size: 400px;
   border: solid;
-  border-radius: 50%;
+  border-color: #05386B;
+}
+
+h2 {
+  color: #05386B;
+}
+
+p {
+  color: #05386B;
+  font-weight: bold;
+}
+
+.grow {
+  padding: 5px 5px 5px 5px;
+  border-radius: 10px;
+  height: 49px;
+  width: 22%;
+  margin: 5px 1% 5px 1%;
+  float: left;
+  position: relative;
+  transition: height 0.5s;
+  -webkit-transition: height 0.5s;
+  text-align: center;
+  overflow: hidden;
+  transition: 1.5s;
+}
+
+.grow:hover {
+  height: 400px;
+  width: 400px;
 }

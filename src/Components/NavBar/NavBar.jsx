@@ -6,11 +6,11 @@ export default function NavBar() {
             <div className="nav">
                 <nav className="navbar">
                     &nbsp;  &nbsp;
-                    <Link to="/Home">Home</Link>
+                    <Link className="nav-but" to="/Home">Home</Link>
                     &nbsp;  &nbsp;
-                    <Link to="/Portfolio">Work</Link>
+                    <Link className="nav-but" to="/Portfolio">Work</Link>
                     &nbsp;  &nbsp;
-                    <Link to="/Contact">Contact</Link>
+                    <Link className="nav-but" to="/Contact">Contact</Link>
                     &nbsp;  &nbsp;
                 </nav>
             </div>
