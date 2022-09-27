@@ -25,6 +25,13 @@ export default function Portfolio() {
                                 <p>Social app to post and play users browser games.</p>
                         </a>
                     </div>
+                    <div className="grow">
+                            <h2>Flight Tracker</h2>
+                        <a href="https://flights-around-the-globe.herokuapp.com/flights" target="_blank">
+                            <div className="flight-tracker"></div>
+                                <p>Application that lets users record flights and tickets they have used or purchased.</p>
+                        </a>
+                    </div>
                 </div>
             </div>
         </>

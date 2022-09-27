@@ -166,6 +166,7 @@ main {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
+  flex-direction: row;
 }
 
 .pokewiki {
@@ -187,6 +188,14 @@ main {
 .browgames {
   padding: 125px;
   background-image: url(https://imgur.com/GHvgASi.png);
+  background-size: 400px;
+  border: solid;
+  border-color: #05386B;
+}
+
+.flight-tracker {
+  padding: 125px;
+  background-image: url(https://imgur.com/1yIjlkd.png);
   background-size: 400px;
   border: solid;
   border-color: #05386B;
@@ -217,6 +226,6 @@ p {
 }
 
 .grow:hover {
-  height: 400px;
-  width: 400px;
+  height: 500px;
+  width: 300px;
 }
